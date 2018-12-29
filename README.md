@@ -1,4 +1,22 @@
-A sample command-line application.
+# Understanding Stream in Dart
 
-Created from templates made available by Stagehand under a BSD-style
-[license](https://github.com/dart-lang/stagehand/blob/master/LICENSE).
+A demo application to understand how stream works dart with simple example
+
+
+## ScreenShot Chocolate Factory
+
+<img src="https://github.com/Zishanr/StreamBasicDart/blob/master/screenshot/Screenshot%202018-12-28%20at%209.53.45%20PM.png" width="500" height="350">
+
+## Dependencies
+
+* [Dart Async](https://github.com/dart-lang/async)
+
+
+## Getting Started
+
+
+A few resources to get you started if this is your first Flutter project:
+
+For help getting started with Dart, view our
+[online documentation](https://www.dartlang.org/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
