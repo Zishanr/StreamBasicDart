@@ -1,6 +1,12 @@
 import 'dart:async';
 
-class Cake {}
+class Cake {
+
+  @override
+  String toString() {
+    return 'Chocolate cake';
+  }
+}
 
 // Order  - Order given by customer.
 class Order {
@@ -29,6 +35,6 @@ void main() {
 
   // OrderInpector receives every order object passed by OrderTaker to the factory and pass the type from order object to baker.
   controller.stream.map((order) => order.type).transform(baker).listen(
-      (cake) => print('Heres your cake $cake'),
+      (cake) => print('Heres your $cake'),
       onError: (error) => print('Error $error'));
 }
